@@ -43,11 +43,18 @@
 .categories img {
     width: 100px;
 }
+@media screen  and (max-width:767px){
+    .categories .col-md-4 {
+        padding-block: 10px;
+    }
+    
+}
 /* Category Section Ends Here */
 /* Product Show section Starts Here */
 .card {
     box-shadow: 0px 0px 3px 3px #d3d3d3;
     border:none;
+    
 }
 .shoes .buy-btn {
     margin-top: 20px;
